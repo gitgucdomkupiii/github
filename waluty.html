@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waluty</title>
+    <script src="waluty.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Obliczanie walut</h1>
+    </header>
+    <main> 
+        <h3>Podaj dane dotyczące walut</h3>
+        <label for="ilosc">Podaj kwotę (złoty)</label>
+        <input name="ilosc" id="ilosc" type="number">
+        <br>
+        <label for="rodzaj">Wybierz rodzaj waluty</label>
+        <select name="rodzaj" id="rodzaj">
+            <option value="euro">Euro</option>
+            <option value="dolar">dolar</option>
+            <option value="funt">funt</option>
+        </select>
+        <br>
+        <button type="submit" onclick="oblicz()">Oblicz koszt</button>
+        <p><output id="wynik"></output></p>
+    </main>
+    <footer>
+        <p>Stronę wykonał Dominik</p>
+    </footer>
+</body>
+</html>
