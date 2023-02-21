@@ -1,9 +1,14 @@
 function oblicz(){
-    let ilosc=parseInt(document.getElementById("ilosc").value);
-    let rodzaj=document.getElementById("rodzaj").value;
-    let koszt=0;
-    if(rodzaj=="benzyna95"){
-        koszt=ilosc*6.72;
+    let a1=parseInt(document.getElementById("liczba").value);
+    let Fn=0;
+    if(n<=2){
+        Fn=an;
+    }else{
+        let (an-a1);
+        let (n-1);
+        while(i<=n){
+            (an-a1)/(n-1);
+        }
     }
-    document.getElementById("wynik").value=koszt;
-}
+    document.getElementById("wynik").value=Fn;
+    }
