@@ -12,13 +12,13 @@
     </header>
     <main>
         <?php
-            $connect=mysqli_connect('localhost','root','','4ti');
+            $connect=mysqli_connect('localhost','root','','4');
             if($connect){
                 echo "Połączyliśmy się z bazą";
                 $zapytanie="SELECT * from przedmiot";
                 $wynik=mysqli_query($connect,$zapytanie);
                 while($wiersz=mysqli_fetch_array($wynik)){
-                    $przedmiot[]=$wiersz['Nazwaprzedmiot'];
+                    $przedmiot[]=$wiersz['nazwaPrzedmiot'];
                     $idprzedmiot[]=$wiersz['id'];
                 }
                 $zapytanie="SELECT * from dane";
