@@ -1,47 +1,42 @@
-body {
-	font-family: Helvetica;
-	background-color: Linen;
-	color: #222;
-	margin: auto;
-	width: 90%;
+*{
+    font-family: Garamond;
+    background-color: mistyrose;
+    color: rgb(62, 39, 35);
+    text-align: center;
 }
-
-
- .baner1,
- .baner2{
-	background-color: black;
-	color: white;
-	width: 50%;
-	height: 100px;
-    float:left
+.lewy{
+    width: 20%;
+    height: 600px;
+    margin: 30px;
+    box-shadow: 15px 15px 10px dimgray;
+    overflow: auto;
+    float: left;
 }
-.glowny {
-	padding: 20px;
+.lewy>img{
+    width: 100%;
 }
-footer {
-	background-color: black;
-	color: white;
-	padding: 20px;
-	text-align: center;
+.prawy{
+    width: 65%;
+    height: 600px;
+    float: left;
 }
-table {
-	margin: 40px;
+.miniatura{
+    width: 140px;
+    padding: 2px;
+    border-radius: 5%;
 }
-td {
-	padding: 30px;
-	text-align: center;
-	font-weight: bold; 
+.miniatura:hover{
+    border: 1px dotted black;
 }
-a {
-	color: #aaa;
-	text-decoration: none;
+.duzy{
+    width: 500px;
+    margin: 30px;
+    box-shadow: 15px 15px 10px dimgray;
 }
-a:hover {
-	color: white;
+table{
+    border: 1px dashed black;
+    width:100%; 
 }
-li {
-	display: inline-block;
-	padding: 5px;
-	margin: 10px;
-	border-bottom: 1px solid white;
+footer{
+    clear: both;
 }
